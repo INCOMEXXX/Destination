@@ -12,7 +12,7 @@ const Deuropa = () => {
         </div>
         <img src={Europa} alt="" />
       </div>
-      <div className="w-[445px] h-[472px] flex flex-col justify-center">
+      <div className="w-[445px] h-[472px] flex flex-col justify-center gap-[90px]">
         <div className="text-[16px] font-normal flex gap-5">
           <Link
             to="/Destination"
