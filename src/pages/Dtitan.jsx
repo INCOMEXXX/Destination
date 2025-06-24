@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Dtitan = () => {
   return (
-    <div className="flex items-center justify-center gap-[90px]">
+    <div className="flex page-titan items-center justify-center gap-[90px]">
       <div className="text-[#ffffff] flex flex-col gap-[50px] my-[50px]">
         <div className="flex items-center gap-3 text-[28px] font-normal">
           <p>01</p>

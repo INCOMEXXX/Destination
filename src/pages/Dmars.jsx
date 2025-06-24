@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Dmars = () => {
   return (
-    <div className="flex items-center justify-center gap-[90px]">
+    <div className="flex page-mars items-center justify-center gap-[90px]">
       <div className="text-[#ffffff] flex flex-col gap-[90px] my-[50px]">
         <div className="flex items-center gap-3 text-[28px] font-normal font">
           <p>01</p>

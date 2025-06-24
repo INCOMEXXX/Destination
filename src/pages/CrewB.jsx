@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const CrewB = () => {
   return (
-    <div className="text-[#ffffff] flex gap-[20px] ">
-      <div className="flex flex-col items-start my-[30px]">
+    <div className="crewb  text-[#ffffff] flex gap-[80px]  ps-[70px]">
+      <div className="flex flex-col items-start my-[90px]">
         <div className="flex items-center gap-3 text-[28px] font-bold leading [100%] my-[50px] font-family:Barlow Condensed ">
           <p>01</p>
           <h4>MEET YOUR CREW</h4>
@@ -40,7 +40,7 @@ const CrewB = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="mt-[150px]">
         <img src={Crew} alt="" />
       </div>
     </div>

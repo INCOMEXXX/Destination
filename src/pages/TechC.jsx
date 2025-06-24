@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const TechC = () => {
   return (
-    <div className=" flex item-center justify-between gap-[90px] my-[50px] ml-[60px]">
-      <div className="flex flex-col justify-center gap-4 ">
+    <div className="techC relative flex item-center justify-between gap-[90px]  ml-[0px]">
+      <div className="flex flex-col justify-center gap-4 ps-[90px] ">
         <div className="flex gap-[20px] items-start">
           <p className="w-[30px] h-[34px] text-[28px] font-bold leading-[100%]">
             03
@@ -14,7 +14,7 @@ const TechC = () => {
             SPACE LAUNCH 101
           </h4>
         </div>
-        <div className="flex items-start gap-[50px] mt-[90px]">
+        <div className="flex items-start gap-[50px] mt-[100px]">
           <div className="flex flex-col gap-5 mt-[10px]">
             <Link
               to="/Technology"
@@ -51,7 +51,7 @@ const TechC = () => {
           </div>
         </div>
       </div>
-      <img src={Tech} alt="" />
+      <img src={Tech} alt="" className="w-[515px] h-[527px] mt-[250px] pe-[40px]" />
     </div>
   );
 };

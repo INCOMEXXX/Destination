@@ -5,27 +5,117 @@
 #root {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: start;
   color: #ffffff;
   height: 900px;
 }
 
-.page-background {
+.page-home {
+  background-image: url(./assets/Bitmap2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100%;
 }
 
-body {
-  background-image: url(./assets/Bitmap2.jpg);
+.page-Destination {
+  background-image: url(./assets/DestinBG.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 }
 
+.page-europa {
+  background-image: url(./assets/DestinBG.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.page-mars {
+  background-image: url(./assets/DestinBG.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.page-titan {
+  background-image: url(./assets/DestinBG.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.page-crew {
+  background-image: url(./assets/THIRD.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.crewb {
+  background-image: url(./assets/THIRD.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.crewC {
+  background-image: url(./assets/THIRD.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.crewD {
+  background-image: url(./assets/THIRD.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.page-tech {
+  background-image: url(./assets/TECHBBG.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.techB {
+  background-image: url(./assets/TECHBBG.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.techC {
+  background-image: url(./assets/TECHBBG.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
 .c p {
   font-family: "Barlow Condensed", sans-serif;
 }

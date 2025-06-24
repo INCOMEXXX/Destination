@@ -3,9 +3,9 @@ import pageLogo from "../assets/Group 2.svg";
 
 const NavBar = () => {
   return (
-    <div className="flex items-center gap-[40px] justify-between ">
+    <div className="flex absolute right-[30px] z-10 items-center gap-[40px] justify-between mt-[25px] ">
       <img src={pageLogo} alt="" />
-      <div className="border w-[320px] h-[1px] opacity-[0.25] absolute left-[120px] "></div>
+      <div className="border w-[320px] h-[1px] opacity-[0.25]  left-[120px] relative"></div>
       <div className="flex items-center gap-[40px]  bg-[#FFFFFF0A] w-[830px] h-[90px] justify-center px-[70px] text-[16px] font-normal relative  ">
         <div className="flex items-center gap-4 hover:border-b border-[#FFFFFF]">
           <p>00</p>

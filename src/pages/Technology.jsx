@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 const Technology = () => {
   return (
-    <div className=" page-tech flex item-center justify-between gap-[90px] my-[50px] ml-[60px]">
-      <div className="flex flex-col justify-center ">
-        <div className="flex gap-4">
+    <div className=" page-tech relative flex item-center justify-between gap-[90px] my-[0px] ml-[0px]">
+      <div className="flex flex-col justify-center ps-[70px] ">
+        <div className="flex gap-4 px-[]">
           <p className="w-[30px] h-[34px] text-[28px] font-bold leading-[100%]">
             03
           </p>
@@ -15,7 +15,7 @@ const Technology = () => {
           </h4>
         </div>
 
-        <div className="flex items-start gap-[50px] mt-[90px]">
+        <div className="flex items-start px-[] gap-[50px] mt-[90px]">
           <div className="flex flex-col gap-5 mt-[20px]">
             <p className=" border-1 w-[80px] h-[80px] text-center flex flex-col justify-center rounded-full bg-[#ffffff]">
               1
@@ -34,9 +34,9 @@ const Technology = () => {
             </Link>
           </div>
 
-          <div className="flex flex-col items-start w-[470px] h-[303px] gap-[]">
+          <div className="flex flex-col items-start w-[470px] h-[303px] gap-[20px]">
             <p>THE TERMINOLOGY…</p>
-            <h1 className="text-[56px] font-normal w-[470px] h-[64px]">
+            <h1 className="text-[56px] font-normal w-[470px] h-[64px] text-start">
               LAUNCH VEHICLE
             </h1>
             <p className="w-[444px] h-[192px] mt-[120px]">
@@ -49,7 +49,7 @@ const Technology = () => {
           </div>
         </div>
       </div>
-      <img src={Flytech} alt="" className="mt-[80px]" />
+      <img src={Flytech} alt="" className="w-[515px] h-[527px] mt-[240px] pr-[10px]" />
     </div>
   );
 };
