@@ -4,7 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Homepage from "./pages/Homepage";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, NavLink, Route, Routes } from "react-router-dom";
 import Crew from "./pages/Crew";
 import Technology from "./pages/Technology";
 import Destination from "./pages/Destination";

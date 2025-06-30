@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 const CrewD = () => {
   return (
-    <div className="text-[#ffffff] relative flex gap-[50px]  ps-[70px] crewD ">
-      <div className="flex flex-col items-start my-[90px]">
-        <div className="flex items-center gap-3 text-[28px] font-bold leading [100%] mt-[90px] font-family:Barlow Condensed">
+    <div className="crewC text-[#ffffff]  flex gap-[80px]  ps-[70px] ">
+      <div className="flex flex-col items-start mt-[150px]">
+        <div className="flex items-center gap-3 text-[28px] font-bold leading [100%] my-[50px] font-family:Barlow Condensed">
           <p>01</p>
           <h4 className="">MEET YOUR CREW</h4>
         </div>
@@ -14,10 +14,10 @@ const CrewD = () => {
           <h3 className="text-[32px] font-normal leading [100%]">
             Flight Engineer
           </h3>
-          <h2 className="text-[56px] font-normal w-[532px] leading [100%]  ">
+          <h2 className="text-[56px] font-normal leading [100%]  ">
             ANOUSHEH ANSARI
           </h2>
-          <p className="text-[18px]  leading-[32px] w-[444px] h-[128px] my-[30px]">
+          <p className="text-[18px]  leading-[32px] w-[444px] h-[128px] my-[70px]">
             Anousheh Ansari is an Iranian American engineer and co-founder of
             Prodea Systems. Ansari was the fourth self-funded space tourist, the
             first self-funded woman to fly to the ISS, and the first Iranian in
@@ -43,7 +43,7 @@ const CrewD = () => {
           ></Link>
         </div>
       </div>
-      <img src={Crew} alt="" className="W-[615px] h-[607px] mt-[280px]" />
+      <img src={Crew} alt="" className="w-[615px] h-[607px] mt-[210px]" />
     </div>
   );
 };

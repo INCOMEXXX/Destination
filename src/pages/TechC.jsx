@@ -51,7 +51,7 @@ const TechC = () => {
           </div>
         </div>
       </div>
-      <img src={Tech} alt="" className="w-[515px] h-[527px] mt-[250px] pe-[40px]" />
+      <img src={Tech} alt="" className="w-[515px] h-[527px] mt-[270px] " />
     </div>
   );
 };
